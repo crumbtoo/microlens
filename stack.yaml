@@ -2,10 +2,9 @@ resolver: lts-20.3
 
 packages:
 - microlens
-- microlens-contra
 - microlens-ghc
 - microlens-mtl
 - microlens-th
 - microlens-platform
-
-compiler: ghc-9.2.5
+- microlens-contra
+- microlens-pro
