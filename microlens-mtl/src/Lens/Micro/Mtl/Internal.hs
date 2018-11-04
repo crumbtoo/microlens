@@ -52,6 +52,8 @@ module Lens.Micro.Mtl.Internal
 )
 where
 
+import Lens.Micro
+import Lens.Micro.Internal (( #. ))
 
 import Control.Applicative
 #if MIN_VERSION_mtl(2, 3, 0)
@@ -73,9 +75,6 @@ import Control.Monad.Trans.List
 import Control.Monad.Trans.Except
 import Control.Monad.Trans.Identity
 import Control.Monad.Trans.Maybe
--- microlens
-import Lens.Micro
-import Lens.Micro.Internal
 
 #if __GLASGOW_HASKELL__ < 710
 import Data.Monoid
